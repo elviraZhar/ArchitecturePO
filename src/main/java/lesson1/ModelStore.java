@@ -1,6 +1,6 @@
 package lesson1;
 
-public class ModelStore implements IModelChanger, IModelChangedObserver {
+public class ModelStore implements IModelChanger {
     private PoligonalModel model;
     private Scene scenes;
     private Flash flashea;
@@ -16,8 +16,4 @@ public class ModelStore implements IModelChanger, IModelChangedObserver {
 
     }
 
-    @Override
-    public void ApplyUpdateModel() {
-
-    }
 }

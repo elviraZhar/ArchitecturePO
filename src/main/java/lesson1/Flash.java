@@ -5,10 +5,10 @@ import javafx.geometry.Point3D;
 import java.awt.*;
 
 public class Flash {
-    private Point3D location;
-    private Angle3D angle;
-    private Color color;
-    private float power;
+    public Point3D location;
+    public Angle3D angle;
+    public Color color;
+    public float power;
 
     public void rotate(Angle3D a){
     }

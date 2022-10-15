@@ -1,7 +1,7 @@
 package lesson1;
 
 public class PoligonalModel {
-    private Poligon poligons;
-    private Texture textures;
+    public Poligon poligons;
+    public Texture textures;
 
 }

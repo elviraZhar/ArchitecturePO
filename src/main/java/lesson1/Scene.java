@@ -3,9 +3,9 @@ package lesson1;
 import java.lang.reflect.Type;
 
 public class Scene {
-    private int id;
-    private PoligonalModel models;
-    private Flash flashes;
+    public int id;
+    public PoligonalModel models;
+    public Flash flashes;
 
     public Type method1(Type t){
         return t;

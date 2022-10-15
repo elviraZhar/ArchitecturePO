@@ -1,10 +1,10 @@
 package lesson1;
 
 public class ModelStore implements IModelChanger {
-    private PoligonalModel model;
-    private Scene scenes;
-    private Flash flashea;
-    private Camera cameras;
+    public PoligonalModel model;
+    public Scene scenes;
+    public Flash flashea;
+    public Camera cameras;
     private IModelChangedObserver changedObserver;
 
     public Scene getScene(int x){

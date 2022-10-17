@@ -4,8 +4,8 @@ import java.lang.reflect.Type;
 
 public class Scene {
     public int id;
-    public PoligonalModel models;
-    public Flash flashes;
+    public PoligonalModel[] models;
+    public Flash[] flashes;
 
     public Type method1(Type t){
         return t;

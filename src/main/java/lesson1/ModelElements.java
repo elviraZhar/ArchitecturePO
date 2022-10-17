@@ -4,7 +4,7 @@ import javafx.geometry.Point3D;
 
 import java.awt.*;
 
-public class ModelElements {
+public class ModelElements implements Functional{
 
     public Object creatModel(String name){
 
@@ -14,13 +14,16 @@ public class ModelElements {
         if (name == "Camera"){
             return new Camera(Point3D, Angle3D);
         }
-        if (name == "PoligonalModel"){
-            return new PoligonalModel();
-        }
-        if (name == "Scene"){
-            return new Scene();
-        }
         return null;
     }
 
+    @Override
+    public void rotate(Angle3D a) {
+
+    }
+
+    @Override
+    public void move(Point3D p) {
+
+    }
 }

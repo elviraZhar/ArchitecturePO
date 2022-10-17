@@ -23,8 +23,6 @@ public class ModelStore implements IModelChanger {
     public static void main(String[] args) {
         ModelElements modelElements = new ModelElements();
 
-        model.add((PoligonalModel) modelElements.creatModel("PoligonalModel"));
-        scenes.add((Scene) modelElements.creatModel("Scene"));
         flashes.add((Flash) modelElements.creatModel("Flash"));
         cameras.add((Camera) modelElements.creatModel("Camera"));
     }

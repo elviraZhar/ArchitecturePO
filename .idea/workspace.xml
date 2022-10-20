@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd6e2f65-d639-48cb-98ed-c81901055e07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/Functional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/CameraFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/FlashFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/ModelFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/PoligonalModelFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/SceneFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/ModelElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson1/ModelElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/Functional.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/ModelElements.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/ModelStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson1/ModelStore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -100,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666013397159</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lesson2&#10;фабрика для Flash и Camera с интерфейсом для общих методов">
+      <created>1666014617483</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666014617483</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -108,6 +121,7 @@
     <MESSAGE value="изменение модификаторов области видимости" />
     <MESSAGE value="lesson1" />
     <MESSAGE value="lesson1&#10;вариант создания объектов с параматрами" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson1&#10;вариант создания объектов с параматрами" />
+    <MESSAGE value="lesson2&#10;фабрика для Flash и Camera с интерфейсом для общих методов" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson2&#10;фабрика для Flash и Camera с интерфейсом для общих методов" />
   </component>
 </project>

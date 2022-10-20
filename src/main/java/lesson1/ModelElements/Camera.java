@@ -1,4 +1,4 @@
-package lesson1;
+package lesson1.ModelElements;
 
 import javafx.geometry.Point3D;
 

@@ -1,4 +1,4 @@
-package lesson1;
+package lesson1.ModelElements;
 
 public class PoligonalModel {
     public Poligon[] poligons;

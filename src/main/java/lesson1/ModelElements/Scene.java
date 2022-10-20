@@ -1,4 +1,7 @@
-package lesson1;
+package lesson1.ModelElements;
+
+import lesson1.ModelElements.Flash;
+import lesson1.ModelElements.PoligonalModel;
 
 import java.lang.reflect.Type;
 

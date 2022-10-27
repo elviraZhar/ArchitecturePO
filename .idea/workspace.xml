@@ -5,16 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd6e2f65-d639-48cb-98ed-c81901055e07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/CameraFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/FlashFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/ModelFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/PoligonalModelFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/SceneFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/IncorrectSidesExeption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/Programe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/Functional.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/ModelElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/ModelStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson1/ModelStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/Factory/CameraFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/lesson1/Factory/CameraFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/Factory/FlashFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/lesson1/Factory/FlashFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/Factory/ModelFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/lesson1/Factory/ModelFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/Factory/PoligonalModelFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/lesson1/Factory/PoligonalModelFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/Factory/SceneFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/lesson1/Factory/SceneFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/InMemoryModel/IModelChangedObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/lesson1/InMemoryModel/IModelChangedObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/InMemoryModel/IModelChanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/lesson1/InMemoryModel/IModelChanger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/InMemoryModel/ModelStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/lesson1/InMemoryModel/ModelStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/ModelElements/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/lesson1/ModelElements/Camera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/ModelElements/Flash.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/lesson1/ModelElements/Flash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/ModelElements/Poligon.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/lesson1/ModelElements/Poligon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/ModelElements/PoligonalModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/lesson1/ModelElements/PoligonalModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/ModelElements/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/lesson1/ModelElements/Scene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/ModelElements/Texture.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/lesson1/ModelElements/Texture.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +74,32 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="lesson3" />
       <recent name="lesson1" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Java\ArchitecturePO\lesson1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Programe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson3.Programe" />
+      <module name="ArchitecturePO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Programe" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

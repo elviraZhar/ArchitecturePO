@@ -1,9 +1,8 @@
-package lesson3;
+package lesson3.abstraction;
 
 public abstract class Figure {
 
     public abstract float area();
 
-    public abstract float perimeter();
 
 }

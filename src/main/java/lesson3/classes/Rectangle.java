@@ -1,10 +1,14 @@
-package lesson3;
+package lesson3.classes;
 
-public class Rectangle extends Figure {
+import lesson3.abstraction.Figure;
+import lesson3.abstraction.IncorrectSidesExeption;
+import lesson3.abstraction.Polygon;
+
+public class Rectangle extends Figure implements Polygon {
     private int height;
     private int width;
 
-    public Rectangle(int height, int width) throws IncorrectSidesExeption{
+    public Rectangle(int height, int width) throws IncorrectSidesExeption {
         if (height <= 0 || width <= 0){
             throw new IncorrectSidesExeption("Прямоугольник не может быть создан");
         }

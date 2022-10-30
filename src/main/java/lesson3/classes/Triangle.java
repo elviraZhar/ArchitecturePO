@@ -1,13 +1,17 @@
-package lesson3;
+package lesson3.classes;
+
+import lesson3.abstraction.Figure;
+import lesson3.abstraction.IncorrectSidesExeption;
+import lesson3.abstraction.Polygon;
 
 import static java.lang.Math.sqrt;
 
-public class Triangle extends Figure {
+public class Triangle extends Figure implements Polygon{
     private int a;
     private int b;
     private int c;
 
-     public Triangle(int a, int b, int c) throws IncorrectSidesExeption{
+     public Triangle(int a, int b, int c) throws IncorrectSidesExeption {
         if (a+b <= c || b+c <= a || a+c <= b){
             throw new IncorrectSidesExeption("Треугольник не может быть создан");
         }

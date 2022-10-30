@@ -1,5 +1,14 @@
 package lesson3;
 
+import lesson3.abstraction.Figure;
+import lesson3.abstraction.IncorrectSidesExeption;
+import lesson3.abstraction.Polygon;
+import lesson3.abstraction.Сircumference;
+import lesson3.classes.Circle;
+import lesson3.classes.Rectangle;
+import lesson3.classes.Square;
+import lesson3.classes.Triangle;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,7 +18,7 @@ public class Programe {
         List<Figure> figures = new ArrayList<>();
 
         try {
-            figures.add(new Circle(0));
+            figures.add(new Circle(10));
         } catch (IncorrectSidesExeption ex) {
             System.err.println("Круг не может быть создан");
         }
@@ -29,25 +38,18 @@ public class Programe {
             System.err.println("Треугольник не может быть создан");
         }
 
-
         for (int i = 0; i < figures.size(); i++){
-           System.out.println(perimeterFigure(figures.get(i)));
-        }
-
-        for (int i = 0; i < figures.size(); i++){
-            System.out.println(areaFigure(figures.get(i)));
+            printFigureInfo(figures.get(i));
         }
     }
 
-    public static float perimeterFigure(Figure figure){
-        float per;
-        per = figure.perimeter();
-        return per;
-    }
-
-    public static float areaFigure(Figure figure){
-        float ar;
-        ar = figure.area();
-        return ar;
+    public static void printFigureInfo(Figure figure){
+        System.out.println(figure.area());
+        if (figure instanceof Polygon){
+            System.out.println(((Polygon) figure).perimeter());
+        }
+        if (figure instanceof Сircumference){
+            System.out.println(((Сircumference) figure).circumference());
+        }
     }
 }

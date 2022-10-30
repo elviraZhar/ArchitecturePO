@@ -1,4 +1,4 @@
-package lesson3;
+package lesson3.abstraction;
 
 public class IncorrectSidesExeption extends Exception{
     private String msg;

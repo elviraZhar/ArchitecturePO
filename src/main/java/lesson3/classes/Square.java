@@ -1,9 +1,13 @@
-package lesson3;
+package lesson3.classes;
 
-public class Square extends Figure{
+import lesson3.abstraction.Figure;
+import lesson3.abstraction.IncorrectSidesExeption;
+import lesson3.abstraction.Polygon;
+
+public class Square extends Figure implements Polygon {
     private int side;
 
-    public Square(int side) throws IncorrectSidesExeption{
+    public Square(int side) throws IncorrectSidesExeption {
         if (side <= 0){
             throw new IncorrectSidesExeption("Квадрат не может быть создан");
         }

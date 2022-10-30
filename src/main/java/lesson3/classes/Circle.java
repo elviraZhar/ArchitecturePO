@@ -1,9 +1,13 @@
-package lesson3;
+package lesson3.classes;
 
-public class Circle extends Figure {
+import lesson3.abstraction.Figure;
+import lesson3.abstraction.IncorrectSidesExeption;
+import lesson3.abstraction.Сircumference;
+
+public class Circle extends Figure implements Сircumference {
     private int radius;
 
-    public Circle(int radius) throws IncorrectSidesExeption{
+    public Circle(int radius) throws IncorrectSidesExeption {
         if (radius <= 0){
             throw new IncorrectSidesExeption("Круг не может быть создан");
         }
@@ -16,7 +20,7 @@ public class Circle extends Figure {
     }
 
     @Override
-    public float perimeter() {
+    public float circumference() {
         float perimeter = (float) (2 * 3.14 * radius);
         return perimeter;
     }

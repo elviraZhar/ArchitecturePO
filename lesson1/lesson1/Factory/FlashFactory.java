@@ -7,6 +7,6 @@ import java.awt.*;
 
 public class FlashFactory extends ModelFactory {
     public Flash creatModel(String name, Point3D location, Angle3D angle, Color color, float power){
-        return new Flash();
+       return new Flash();
     }
 }

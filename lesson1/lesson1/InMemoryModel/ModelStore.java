@@ -27,7 +27,7 @@ public class ModelStore implements IModelChanger {
 
     }
 
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         FlashFactory flashFactory = new FlashFactory();
         CameraFactory cameraFactory = new CameraFactory();
         SceneFactory sceneFactory = new SceneFactory();
@@ -37,5 +37,5 @@ public class ModelStore implements IModelChanger {
         scenes.add(sceneFactory.creatModel("Scene", PoligonalModel[] models, Flash[] flashes));
         flashes.add(flashFactory.creatModel("Flash", Point3D location, Angle3D angle, Color color, float power));
         cameras.add(cameraFactory.creatModel("Camera", Point3D location, Angle3D angle));
-    }
+    }*/
 }

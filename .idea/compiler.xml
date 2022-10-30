@@ -9,5 +9,8 @@
         <module name="ArchitecturePO" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lesson1" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
